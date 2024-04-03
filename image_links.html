@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FF0000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #f00000;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ccc;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Here you'll find amazing images and links related to technology, nature, and food.</p>
+        <a href="https://unsplash.com/photos/turned-on-gray-laptop-computer-XJXWbfSo2f0" target="_blank"><img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="250px" height="250px" alt="Technology Image"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://unsplash.com/photos/a-waterfall-in-the-middle-of-a-lush-green-forest-J6Fdqeb0Vcs"><img src="https://plus.unsplash.com/premium_photo-1675827055694-010aef2cf08f?q=80&w=1424&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Image 1" width="250px" height="250px"></a>
+            <a href="https://unsplash.com/photos/gray-concrete-bridge-and-waterfalls-during-daytime-cssvEZacHvQ"><img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Image 2" width="250px" height="250px"></a>
+            <a href="https://unsplash.com/photos/blue-and-brown-steel-bridge-eOpewngf68w"><img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Image 3" width="350px" height="250px"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://www.istockphoto.com/photo/homemade-kimchee-and-glass-jar-gm1472581913-502894036?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffood&utm_medium=affiliate&utm_source=unsplash&utm_term=food%3A%3A%3A"><img src="https://media.istockphoto.com/id/1472581913/photo/homemade-kimchee-and-glass-jar.jpg?s=1024x1024&w=is&k=20&c=5tDz7KYn396LmdaKw7xRTTx-bPFASxWhVnFkM2n6Ldk=" alt="Food Item 1" width="250px" height="200px"></a></li>
+            <li><a href="https://www.istockphoto.com/photo/backyard-dinner-table-with-tasty-grilled-barbecue-meat-fresh-vegetables-and-salads-gm1481644034-508894455?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffood&utm_medium=affiliate&utm_source=unsplash&utm_term=food%3A%3A%3A"><img src="https://media.istockphoto.com/id/1481644034/photo/backyard-dinner-table-with-tasty-grilled-barbecue-meat-fresh-vegetables-and-salads-happy.jpg?s=1024x1024&w=is&k=20&c=JzGn2i6RitfIwUXCozCIqgF3GnZa23YWhs6b758ey80=" alt="Food Item 2" width="250px" height="200px"></a></li>
+            <li><a href="https://unsplash.com/photos/pizza-on-chopping-board-MqT0asuoIcU"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D" alt="Food Item 3" width="250px" height="250px"></a></li>
+        </ul>
+    </section>
+</body>
+</html>
